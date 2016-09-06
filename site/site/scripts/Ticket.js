@@ -6,7 +6,6 @@ function popupTicket(message) {
 
     var LeftPartTicket = document.createElement('div');
     $(LeftPartTicket).attr('id','ticketPartLeft');
-    $(LeftPartTicket).attr('data-changeTheme', '1');
 
     var RightPartTiket = document.createElement('div');
     $(RightPartTiket).attr('id', 'ticketPartRight');
