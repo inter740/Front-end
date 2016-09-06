@@ -7,7 +7,7 @@ body {
 	font-size: 11px;
 	margin: 0;
 	padding: 0;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -100,4 +100,103 @@ body.dark {
 
 .button:active {
 	background-color: hsl(199, 100%, 42%);
+}
+
+.ticketPartRight {
+    width: 150px;
+    height: 50px;
+    padding: 15px 25px;
+    background-image:
+        radial-gradient( ellipse closest-side at 50%  50%, hsla(0, 0%, 100%, 0.10), transparent 90%),
+        radial-gradient( circle at 0    100%, transparent 8px, moccasin 9px),
+        radial-gradient( circle at 100% 100%, transparent 8px, moccasin 9px),
+        radial-gradient( circle at 100% 0, transparent 8px, moccasin 9px),
+        radial-gradient( circle at 0    0, transparent 8px, moccasin 9px);
+    background-position: center center, bottom left, bottom right, top right, top left;
+    background-size: cover, 90% 51%, 51% 51%, 51% 51%, 51% 51%;
+    background-repeat: no-repeat;
+    border-width: 0 4px;
+    margin: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    float: right;
+}
+
+.ticketPartLeft {
+    width: 50px;
+    height: 50px;
+    padding: 15px 25px;
+    background-image:
+        radial-gradient( ellipse closest-side at 50%  50%, hsla(0, 0%, 100%, 0.10), transparent 90%),
+        radial-gradient( circle at 0    100%, transparent 8px, moccasin 9px),
+        radial-gradient( circle at 100% 100%, transparent 8px, moccasin 9px),
+        radial-gradient( circle at 100% 0, transparent 8px, moccasin 9px),
+        radial-gradient( circle at 0    0, transparent 8px, moccasin 9px);
+    background-position: center center, bottom left, bottom right, top right, top left;
+    background-size: cover, 90% 51%, 51% 51%, 51% 51%, 51% 51%;
+    background-repeat: no-repeat;
+    border-width: 0 4px;
+    margin: 1px;
+        margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    float: left;
+}
+
+.ticketPartLeftDark {	
+	    width: 50px;
+    height: 50px;
+    padding: 15px 25px;
+    background-image:
+        radial-gradient( ellipse closest-side at 50%  50%, hsla(0, 0%, 100%, 0.10), transparent 90%),
+        radial-gradient( circle at 0    100%, transparent 8px, lightslategray 9px),
+        radial-gradient( circle at 100% 100%, transparent 8px, lightslategray 9px),
+        radial-gradient( circle at 100% 0, transparent 8px, lightslategray 9px),
+        radial-gradient( circle at 0    0, transparent 8px, lightslategray 9px);
+    background-position: center center, bottom left, bottom right, top right, top left;
+    background-size: cover, 90% 51%, 51% 51%, 51% 51%, 51% 51%;
+    background-repeat: no-repeat;
+    border-width: 0 4px;
+    margin: 1px;
+        margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    float: left;
+}
+
+.ticketPartRightDark {	
+    width: 150px;
+    height: 50px;
+    padding: 15px 25px;
+    background-image:
+        radial-gradient( ellipse closest-side at 50%  50%, hsla(0, 0%, 100%, 0.10), transparent 90%),
+        radial-gradient( circle at 0    100%, transparent 8px, lightslategray 9px),
+        radial-gradient( circle at 100% 100%, transparent 8px, lightslategray 9px),
+        radial-gradient( circle at 100% 0, transparent 8px, lightslategray 9px),
+        radial-gradient( circle at 0    0, transparent 8px, lightslategray 9px);
+    background-position: center center, bottom left, bottom right, top right, top left;
+    background-size: cover, 90% 51%, 51% 51%, 51% 51%, 51% 51%;
+    background-repeat: no-repeat;
+    border-width: 0 4px;
+    margin: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    float: right;
+}
+
+.divIn {
+    padding: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    word-wrap: break-word; /* Перенос слов */
+}
+
+
+.showTicket {
+    position:absolute;
+    bottom: 0;
+    right: 0;
 }
